@@ -1,0 +1,19 @@
+=========================== STACK DUMP ==========================
+Verify failed!
+Reason: STACK_UNDERFLOW from StackPop at stack_funcs.cpp:29
+
+Stack addres: 0x50b000000040
+Name: IntegerStack
+Capacity: 5
+Size: 0
+Element size: 4
+
+Created: Sat Oct  4 21:25:28 2025
+Last modified: Sat Oct  4 21:25:28 2025
+
+Canary front: 0x0000003735928559 (expected: 0x0000003735928559)
+Canary back:  0x0000003735928559 (expected: 0x0000003735928559)
+Magic number: 0x0000003503344330 (expected: 0x0000003503344330)
+Data pointer: 0x503000000040
+Data hash:    0x00000000
+
