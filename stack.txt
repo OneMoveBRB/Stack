@@ -1,0 +1,19 @@
+=========================== STACK DUMP ==========================
+Verify failed!
+Reason: STACK_DATA_CORRUPTED from StackDestroy at src/stack.c:81
+
+Stack addres: 0x50b000000040
+Name: stack.txt
+Capacity: 16
+Size: 10
+Element size: 4
+
+Created: Mon Dec 29 20:42:20 2025
+Last modified: Mon Dec 29 20:42:20 2025
+
+Canary front: 0x0000003735928559 (expected: 0x0000003735928559)
+Canary back:  0x0000003735928559 (expected: 0x0000003735928559)
+Magic number: 0x0000003503344330 (expected: 0x0000003503344330)
+Data pointer: 0x506000000020
+Data hash:    0x15258185909214168430
+
